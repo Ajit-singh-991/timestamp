@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:timestamp/dinankscroll.dart';
 import 'package:timestamp/homepage.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Vx.white,
       ),
       color: Vx.amber100,
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }

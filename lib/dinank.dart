@@ -1,10 +1,12 @@
+// ignore_for_file: avoid_unnecessary_containers, empty_constructor_bodies
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class MyWeek extends StatelessWidget {
-  String days;
-
-  MyWeek({required this.days});
+class Mydinank extends StatelessWidget {
+  int dins;
+  Mydinank({required this.dins});
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -12,7 +14,7 @@ class MyWeek extends StatelessWidget {
       child: Container(
         child: Center(
           child: Text(
-            days.toString(),
+            dins.toString(),
             style: const TextStyle(
               fontSize: 40,
               color: Vx.white,
