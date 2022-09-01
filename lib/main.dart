@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Vx.white,
       ),
       color: Vx.amber100,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_string_interpolations, sized_box_for_whitespace
+
 import 'package:flutter/material.dart';
 import 'package:timestamp/date.dart';
 import 'package:timestamp/week.dart';
