@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:timestamp/dinankscroll.dart';
 import 'package:timestamp/homepage.dart';
 import 'package:velocity_x/velocity_x.dart';
 
